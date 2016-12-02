@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="J12:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="com.weikun.war">
+    <root id="archive" name="com.weikun-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="J12:war exploded" />
     </root>
   </artifact>

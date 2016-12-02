@@ -6,5 +6,2505 @@
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="test"/>
+      <table id="2" parent="1" name="account">
+        <comment>InnoDB free: 7168 kB; InnoDB free: 6144 kB</comment>
+      </table>
+      <table id="3" parent="1" name="address"/>
+      <table id="4" parent="1" name="admin"/>
+      <table id="5" parent="1" name="adminusers"/>
+      <table id="6" parent="1" name="animal"/>
+      <table id="7" parent="1" name="article"/>
+      <table id="8" parent="1" name="b"/>
+      <table id="9" parent="1" name="bj"/>
+      <table id="10" parent="1" name="blobdemo"/>
+      <table id="11" parent="1" name="book"/>
+      <table id="12" parent="1" name="book1"/>
+      <table id="13" parent="1" name="book2"/>
+      <table id="14" parent="1" name="books"/>
+      <table id="15" parent="1" name="boss"/>
+      <table id="16" parent="1" name="c"/>
+      <table id="17" parent="1" name="cart"/>
+      <table id="18" parent="1" name="cart1"/>
+      <table id="19" parent="1" name="catalog"/>
+      <table id="20" parent="1" name="channel"/>
+      <table id="21" parent="1" name="city">
+        <comment>市级信息</comment>
+      </table>
+      <table id="22" parent="1" name="clients"/>
+      <table id="23" parent="1" name="company"/>
+      <table id="24" parent="1" name="con_test"/>
+      <table id="25" parent="1" name="country">
+        <comment>国家信息</comment>
+      </table>
+      <table id="26" parent="1" name="ctype"/>
+      <table id="27" parent="1" name="customer"/>
+      <table id="28" parent="1" name="d"/>
+      <table id="29" parent="1" name="d1"/>
+      <table id="30" parent="1" name="d2"/>
+      <table id="31" parent="1" name="datamap"/>
+      <table id="32" parent="1" name="dep"/>
+      <table id="33" parent="1" name="dog"/>
+      <table id="34" parent="1" name="employee"/>
+      <table id="35" parent="1" name="father"/>
+      <table id="36" parent="1" name="fish"/>
+      <table id="37" parent="1" name="goodscate"/>
+      <table id="38" parent="1" name="haligong"/>
+      <table id="39" parent="1" name="hrdemo"/>
+      <table id="40" parent="1" name="hus"/>
+      <table id="41" parent="1" name="items"/>
+      <table id="42" parent="1" name="items1"/>
+      <table id="43" parent="1" name="login"/>
+      <table id="44" parent="1" name="mail"/>
+      <table id="45" parent="1" name="member"/>
+      <table id="46" parent="1" name="member1"/>
+      <table id="47" parent="1" name="memeber2"/>
+      <table id="48" parent="1" name="message"/>
+      <table id="49" parent="1" name="newtable"/>
+      <table id="50" parent="1" name="oneofforders"/>
+      <table id="51" parent="1" name="orders"/>
+      <table id="52" parent="1" name="orders1"/>
+      <table id="53" parent="1" name="person"/>
+      <table id="54" parent="1" name="picture"/>
+      <table id="55" parent="1" name="pro"/>
+      <table id="56" parent="1" name="product"/>
+      <table id="57" parent="1" name="profile">
+        <comment>InnoDB free: 7168 kB; InnoDB free: 6144 kB; (`username`) REF</comment>
+      </table>
+      <table id="58" parent="1" name="salgrade"/>
+      <table id="59" parent="1" name="selectbj"/>
+      <table id="60" parent="1" name="selecteditems"/>
+      <table id="61" parent="1" name="shallrain"/>
+      <table id="62" parent="1" name="shop"/>
+      <table id="63" parent="1" name="son"/>
+      <table id="64" parent="1" name="street"/>
+      <table id="65" parent="1" name="stu"/>
+      <table id="66" parent="1" name="studentversion"/>
+      <table id="67" parent="1" name="tb_business"/>
+      <table id="68" parent="1" name="tb_category"/>
+      <table id="69" parent="1" name="tb_usertable"/>
+      <table id="70" parent="1" name="tea"/>
+      <table id="71" parent="1" name="teastu"/>
+      <table id="72" parent="1" name="test"/>
+      <table id="73" parent="1" name="tips"/>
+      <table id="74" parent="1" name="user"/>
+      <table id="75" parent="1" name="user1"/>
+      <table id="76" parent="1" name="user2"/>
+      <table id="77" parent="1" name="user3"/>
+      <table id="78" parent="1" name="user4"/>
+      <table id="79" parent="1" name="user5"/>
+      <table id="80" parent="1" name="user_info">
+        <comment>用户信息表</comment>
+      </table>
+      <table id="81" parent="1" name="users"/>
+      <table id="82" parent="1" name="videos"/>
+      <table id="83" parent="1" name="wife"/>
+      <table id="84" parent="1" name="wl_llr_adminserver"/>
+      <table id="85" parent="1" name="xs"/>
+      <table id="86" parent="1" name="yg"/>
+      <table id="87" parent="1" name="yst"/>
+      <table id="88" parent="1" name="yyy"/>
+      <view id="89" parent="1" name="v1">
+        <comment>VIEW</comment>
+      </view>
+      <routine id="90" parent="1" name="F1">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="91" parent="1" name="F2">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="92" parent="1" name="F3">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="93" parent="1" name="F5">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="94" parent="1" name="F6">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="95" parent="1" name="F7">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="96" parent="1" name="F9">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="97" parent="1" name="f_10">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="98" parent="1" name="f_9">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="99" parent="1" name="getDepByno">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="100" parent="1" name="getDeps">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="101" parent="1" name="getDepts">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="102" parent="1" name="hello">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="103" parent="1" name="hello1">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="104" parent="1" name="hello2">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="105" parent="1" name="hello3">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="106" parent="1" name="p10">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="107" parent="1" name="p1022">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="108" parent="1" name="p111">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="109" parent="1" name="p112">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="110" parent="1" name="p113">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="111" parent="1" name="p114">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="112" parent="1" name="p144">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="113" parent="1" name="p145">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="114" parent="1" name="pro4">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="115" parent="1" name="pro5">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="116" parent="1" name="proc1">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="117" parent="1" name="proc11">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="118" parent="1" name="proc111">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="119" parent="1" name="proc12">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="120" parent="1" name="proc14">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="121" parent="1" name="proc19">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="122" parent="1" name="proc2">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="123" parent="1" name="proc20">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="124" parent="1" name="proc21">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="125" parent="1" name="proc22">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="126" parent="1" name="proc3">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="127" parent="1" name="proc31">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="128" parent="1" name="proc32">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="129" parent="1" name="proc33">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="130" parent="1" name="proc5">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="131" parent="1" name="proc51">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="132" parent="1" name="proc52">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="133" parent="1" name="proc58">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="134" parent="1" name="proc6">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="135" parent="1" name="proc7">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="136" parent="1" name="proc8">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="137" parent="1" name="proc88">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="138" parent="1" name="proc888">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="139" parent="1" name="proc9">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="140" parent="1" name="p_1">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="141" parent="1" name="p_10">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="142" parent="1" name="p_100">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="143" parent="1" name="p_101">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="144" parent="1" name="p_102">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="145" parent="1" name="p_103">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="146" parent="1" name="p_11">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="147" parent="1" name="p_12">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="148" parent="1" name="p_13">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="149" parent="1" name="p_14">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="150" parent="1" name="p_146">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="151" parent="1" name="p_147">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="152" parent="1" name="p_148">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="153" parent="1" name="p_15">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="154" parent="1" name="p_16">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="155" parent="1" name="p_17">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="156" parent="1" name="p_18">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="157" parent="1" name="p_19">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="158" parent="1" name="p_2">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="159" parent="1" name="p_3">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="160" parent="1" name="p_4">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="161" parent="1" name="p_5">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="162" parent="1" name="p_8">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="163" parent="1" name="p_9">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="164" parent="1" name="query_clients">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="165" parent="1" name="query_ctypes">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="166" parent="1" name="query_types">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="167" parent="1" name="query_user2">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="168" parent="1" name="query_userbyid">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="169" parent="1" name="query_userbyresult">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="170" parent="1" name="query_userbyresultlist">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="171" parent="1" name="query_username">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="172" parent="1" name="query_users">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="173" parent="1" name="query_users1">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <routine id="174" parent="1" name="query_usersf">
+        <routine-kind>FUNCTION</routine-kind>
+      </routine>
+      <routine id="175" parent="1" name="sp_test">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <column id="176" parent="2" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(80)</data-type>
+      </column>
+      <column id="177" parent="2" name="password">
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="178" parent="2" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(80)</data-type>
+      </column>
+      <column id="179" parent="2" name="xm">
+        <mandatory>1</mandatory>
+        <data-type>varchar(80)</data-type>
+      </column>
+      <column id="180" parent="2" name="address">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <key id="181" parent="2" name="PRIMARY">
+        <columns>username</columns>
+        <primary>1</primary>
+      </key>
+      <column id="182" parent="3" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="183" parent="3" name="PROVINCE">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="184" parent="3" name="CITY">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="185" parent="3" name="STREET">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="186" parent="3" name="ZIPCODE">
+        <data-type>char(10)</data-type>
+      </column>
+      <key id="187" parent="3" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="188" parent="4" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="189" parent="4" name="username">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="190" parent="4" name="password">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="191" parent="4" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="192" parent="5" name="LOGINID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="193" parent="5" name="ADMINNAME">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="194" parent="5" name="ADMINPWD">
+        <data-type>char(20)</data-type>
+      </column>
+      <key id="195" parent="5" name="PRIMARY">
+        <columns>LOGINID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="196" parent="6" name="Ani_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="197" parent="6" name="Ani_NAME">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="198" parent="6" name="PRIMARY">
+        <columns>Ani_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="199" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="200" parent="7" name="rootid">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="201" parent="7" name="title">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="202" parent="7" name="content">
+        <data-type>longtext</data-type>
+      </column>
+      <column id="203" parent="7" name="datetime">
+        <data-type>timestamp</data-type>
+      </column>
+      <key id="204" parent="7" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="205" parent="8" name="i_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="206" parent="8" name="v_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="207" parent="8" name="d_birth">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <key id="208" parent="8" name="PRIMARY">
+        <columns>i_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="209" parent="9" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="210" parent="9" name="bjname">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="211" parent="9" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="212" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="213" parent="10" name="file">
+        <data-type>longblob</data-type>
+      </column>
+      <column id="214" parent="10" name="clob">
+        <data-type>longtext</data-type>
+      </column>
+      <column id="215" parent="10" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="216" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="217" parent="11" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="218" parent="11" name="bookId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="219" parent="11" name="bookName">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="220" parent="11" name="publisher">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="221" parent="11" name="author">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="222" parent="11" name="price">
+        <data-type>float(10,2)</data-type>
+      </column>
+      <column id="223" parent="11" name="pic">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="224" parent="11" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="225" parent="12" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="226" parent="12" name="BookName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="227" parent="12" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="228" parent="13" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="229" parent="13" name="bookname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+        <default-expression>&apos;java&apos;</default-expression>
+      </column>
+      <column id="230" parent="13" name="price">
+        <mandatory>1</mandatory>
+        <data-type>float(10,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <key id="231" parent="13" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="232" parent="14" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="233" parent="14" name="BookName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="234" parent="14" name="price">
+        <data-type>float(10,2)</data-type>
+      </column>
+      <column id="235" parent="14" name="shuliang">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="236" parent="14" name="scrq">
+        <data-type>date</data-type>
+      </column>
+      <key id="237" parent="14" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="238" parent="15" name="bid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="239" parent="15" name="bname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="240" parent="15" name="PRIMARY">
+        <columns>bid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="241" parent="16" name="v_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="242" parent="16" name="v_name">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="243" parent="17" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="244" parent="17" name="SP_NAME">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="245" parent="17" name="SP_PRICE">
+        <data-type>decimal(8,2)</data-type>
+      </column>
+      <column id="246" parent="17" name="BUY_NUM">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="247" parent="17" name="COUNT">
+        <data-type>decimal(9,2)</data-type>
+      </column>
+      <key id="248" parent="17" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="249" parent="18" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="250" parent="18" name="sp_no">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="251" parent="18" name="sp_num">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="252" parent="18" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="253" parent="19" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="254" parent="19" name="name">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <key id="255" parent="19" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="256" parent="20" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="257" parent="20" name="channelName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="258" parent="20" name="damageOrNot">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="259" parent="20" name="channelId">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="260" parent="20" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="261" parent="21" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="262" parent="21" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="263" parent="21" name="state">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="264" parent="21" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="265" parent="22" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="266" parent="22" name="CLIENTNAME">
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="267" parent="22" name="LINKMAN">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="268" parent="22" name="PHONE">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="269" parent="22" name="PROVINCE">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="270" parent="22" name="CITY">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="271" parent="22" name="STREET">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="272" parent="22" name="PRICE">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="273" parent="22" name="DJ">
+        <data-type>date</data-type>
+      </column>
+      <column id="274" parent="22" name="CTYPE">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="275" parent="22" name="FK_REFERENCE_1CLIENT">
+        <columns>CTYPE</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="276" parent="22" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="277" parent="22" name="FK_REFERENCE_1CLIENT">
+        <columns>CTYPE</columns>
+        <ref-key>~.ctype.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="278" parent="23" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="279" parent="23" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="280" parent="23" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="281" parent="24" name="a">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="282" parent="25" name="Id">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="283" parent="25" name="countryname">
+        <comment>名称</comment>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="284" parent="25" name="countrycode">
+        <comment>代码</comment>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="285" parent="25" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="286" parent="26" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="287" parent="26" name="TYPENAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="288" parent="26" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="289" parent="27" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="290" parent="27" name="CNAME">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="291" parent="27" name="BANK">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="292" parent="27" name="PHONE">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="293" parent="27" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="294" parent="28" name="v_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="295" parent="28" name="v_name">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="296" parent="28" name="PRIMARY">
+        <columns>v_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="297" parent="29" name="v_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="298" parent="29" name="v_name">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="299" parent="29" name="id">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="300" parent="29" name="d1_d2_v_id">
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="301" parent="29" name="PRIMARY">
+        <columns>v_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="302" parent="29" name="d1_d2_v_id">
+        <columns>id</columns>
+        <ref-key>~.d2.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="303" parent="30" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="304" parent="30" name="name">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="305" parent="30" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="306" parent="31" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="307" parent="31" name="MYBOOLEAN">
+        <data-type>bit(1)</data-type>
+      </column>
+      <column id="308" parent="31" name="MYINT">
+        <data-type>int(5)</data-type>
+      </column>
+      <column id="309" parent="31" name="MYLONG">
+        <data-type>bigint(11)</data-type>
+      </column>
+      <column id="310" parent="31" name="MYFLOAT">
+        <data-type>float(8,2)</data-type>
+      </column>
+      <column id="311" parent="31" name="MYDOUBLE">
+        <data-type>double(10,2)</data-type>
+      </column>
+      <column id="312" parent="31" name="MYDECIMAL">
+        <data-type>decimal(10,2)</data-type>
+      </column>
+      <column id="313" parent="31" name="MYDATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="314" parent="31" name="MYTIME">
+        <data-type>time</data-type>
+      </column>
+      <column id="315" parent="31" name="MYDATETIME">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="316" parent="31" name="MYSTRING">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="317" parent="31" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="318" parent="32" name="deptno">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="319" parent="32" name="deptname">
+        <data-type>varchar(11)</data-type>
+      </column>
+      <key id="320" parent="32" name="PRIMARY">
+        <columns>deptno</columns>
+        <primary>1</primary>
+      </key>
+      <column id="321" parent="33" name="Dog_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="322" parent="33" name="Ani_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="323" parent="33" name="Dog_Name">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="324" parent="33" name="PRIMARY">
+        <columns>Dog_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="325" parent="34" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="326" parent="34" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="327" parent="34" name="deptno">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="328" parent="34" name="sex">
+        <data-type>enum(&apos;female&apos;, &apos;male&apos;)</data-type>
+        <default-expression>&apos;male&apos;</default-expression>
+      </column>
+      <index id="329" parent="34" name="testfk">
+        <columns>deptno</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="330" parent="34" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="331" parent="34" name="testfk">
+        <columns>deptno</columns>
+        <ref-key>~.dep.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="332" parent="35" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="333" parent="35" name="fname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="334" parent="35" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="335" parent="36" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="336" parent="36" name="myname">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="337" parent="36" name="mybirth">
+        <data-type>date</data-type>
+      </column>
+      <column id="338" parent="36" name="salary">
+        <mandatory>1</mandatory>
+        <data-type>float(10,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="339" parent="36" name="age">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="340" parent="36" name="sex">
+        <data-type>char(2)</data-type>
+      </column>
+      <key id="341" parent="36" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="342" parent="37" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="343" parent="37" name="PARENT_ID">
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="344" parent="37" name="CATE_NO">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="345" parent="37" name="CATE_NAME">
+        <data-type>varchar(60)</data-type>
+      </column>
+      <key id="346" parent="37" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="347" parent="38" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="348" parent="38" name="username">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="349" parent="38" name="pwd">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="350" parent="38" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="351" parent="39" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="352" parent="39" name="name">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="353" parent="39" name="password">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="354" parent="39" name="department">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="355" parent="39" name="headline">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="356" parent="39" name="sex">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="357" parent="39" name="old">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <key id="358" parent="39" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="359" parent="40" name="hid">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="360" parent="40" name="hname">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="361" parent="40" name="PRIMARY">
+        <columns>hid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="362" parent="41" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="363" parent="41" name="ITEMNO">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="364" parent="41" name="ITEMNAME">
+        <data-type>varchar(60)</data-type>
+      </column>
+      <key id="365" parent="41" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="366" parent="42" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="367" parent="42" name="ITEMNO">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="368" parent="42" name="ITEMNAME">
+        <data-type>varchar(60)</data-type>
+      </column>
+      <key id="369" parent="42" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="370" parent="43" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="371" parent="43" name="LOGINNAME">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="372" parent="43" name="LOGINPWD">
+        <data-type>char(20)</data-type>
+      </column>
+      <key id="373" parent="43" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="374" parent="44" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="375" parent="44" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>mediumint(8) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="376" parent="44" name="mailtitle">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="377" parent="44" name="maildt">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="378" parent="44" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="379" parent="45" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="380" parent="45" name="username">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="381" parent="45" name="password">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="382" parent="45" name="birthday">
+        <data-type>date</data-type>
+      </column>
+      <column id="383" parent="45" name="phone">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="384" parent="45" name="address">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="385" parent="45" name="email">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="386" parent="45" name="regdate">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="387" parent="45" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="388" parent="46" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="389" parent="46" name="username">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="390" parent="46" name="password">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="391" parent="46" name="birthday">
+        <data-type>date</data-type>
+      </column>
+      <column id="392" parent="46" name="phone">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="393" parent="46" name="address">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="394" parent="46" name="email">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="395" parent="46" name="regdate">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="396" parent="46" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="397" parent="47" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="398" parent="47" name="username">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="399" parent="47" name="password">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="400" parent="47" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="401" parent="48" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="402" parent="48" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="403" parent="48" name="email">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="404" parent="48" name="title">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="405" parent="48" name="content">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="406" parent="48" name="date">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="407" parent="48" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="408" parent="49" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="409" parent="49" name="SName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="410" parent="49" name="rq">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="411" parent="49" name="price">
+        <data-type>float(5,2)</data-type>
+      </column>
+      <key id="412" parent="49" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="413" parent="50" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="414" parent="50" name="ORDERNO">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="415" parent="50" name="MONEY">
+        <data-type>decimal(10,2)</data-type>
+      </column>
+      <column id="416" parent="50" name="CUSTOMER_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="417" parent="50" name="REBATE">
+        <data-type>decimal(10,2)</data-type>
+      </column>
+      <key id="418" parent="50" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="419" parent="51" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="420" parent="51" name="ORDERNO">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="421" parent="51" name="MONEY">
+        <data-type>decimal(10,2)</data-type>
+      </column>
+      <column id="422" parent="51" name="CUSTOMER_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="423" parent="51" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="424" parent="52" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="425" parent="52" name="ORDERNO">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="426" parent="52" name="MONEY">
+        <data-type>decimal(10,2)</data-type>
+      </column>
+      <key id="427" parent="52" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="428" parent="53" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="429" parent="53" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="430" parent="53" name="age">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="431" parent="53" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="432" parent="54" name="ITEMS_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="433" parent="54" name="KEYNAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="434" parent="54" name="PICTURE">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="435" parent="54" name="PRIMARY">
+        <columns>ITEMS_ID
+KEYNAME</columns>
+        <primary>1</primary>
+      </key>
+      <column id="436" parent="55" name="PID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="437" parent="55" name="PNAME">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="438" parent="55" name="PRIMARY">
+        <columns>PID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="439" parent="56" name="productID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="440" parent="56" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="441" parent="56" name="price">
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,2)</data-type>
+      </column>
+      <column id="442" parent="56" name="description">
+        <mandatory>1</mandatory>
+        <data-type>mediumtext</data-type>
+      </column>
+      <key id="443" parent="56" name="PRIMARY">
+        <columns>productID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="444" parent="57" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(80)</data-type>
+      </column>
+      <column id="445" parent="57" name="lang">
+        <mandatory>1</mandatory>
+        <data-type>varchar(80)</data-type>
+      </column>
+      <column id="446" parent="57" name="catid">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <index id="447" parent="57" name="FK_Reference_7">
+        <columns>catid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="448" parent="57" name="PRIMARY">
+        <columns>username</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="449" parent="57" name="FK_Relationship_4">
+        <columns>username</columns>
+        <ref-key>~.account.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="450" parent="58" name="grade">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="451" parent="58" name="losal">
+        <data-type>double</data-type>
+      </column>
+      <column id="452" parent="58" name="hisal">
+        <data-type>double</data-type>
+      </column>
+      <column id="453" parent="59" name="bjid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="454" parent="59" name="xsid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="455" parent="59" name="FK_Relationship_2">
+        <columns>xsid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="456" parent="59" name="PRIMARY">
+        <columns>bjid
+xsid</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="457" parent="59" name="FK_Relationship_1">
+        <columns>bjid</columns>
+        <ref-key>~.bj.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="458" parent="59" name="FK_Relationship_2">
+        <columns>xsid</columns>
+        <ref-key>~.xs.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="459" parent="60" name="ORDERID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="460" parent="60" name="ITEMID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="461" parent="60" name="PRIMARY">
+        <columns>ORDERID
+ITEMID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="462" parent="61" name="lid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="463" parent="61" name="lname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="464" parent="61" name="PRIMARY">
+        <columns>lid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="465" parent="62" name="SP_NO">
+        <mandatory>1</mandatory>
+        <data-type>char(10)</data-type>
+      </column>
+      <column id="466" parent="62" name="SP_NAME">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="467" parent="62" name="SP_PRICE">
+        <data-type>decimal(8,2)</data-type>
+      </column>
+      <column id="468" parent="62" name="SP_INFO">
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="469" parent="62" name="SP_PIC">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="470" parent="62" name="PRIMARY">
+        <columns>SP_NO</columns>
+        <primary>1</primary>
+      </key>
+      <column id="471" parent="63" name="sid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="472" parent="63" name="sname">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="473" parent="63" name="id">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="474" parent="63" name="FK34kda8vsvl8jae7q01t6xpe77">
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="475" parent="63" name="PRIMARY">
+        <columns>sid</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="476" parent="63" name="FK34kda8vsvl8jae7q01t6xpe77">
+        <columns>id</columns>
+        <ref-key>~.father.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="477" parent="63" name="f_s_id_fk">
+        <columns>id</columns>
+        <ref-key>~.father.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="478" parent="64" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="479" parent="64" name="sname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="480" parent="64" name="cityid">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="481" parent="64" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="482" parent="65" name="sid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="483" parent="65" name="sname">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="484" parent="65" name="PRIMARY">
+        <columns>sid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="485" parent="66" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="486" parent="66" name="name">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="487" parent="66" name="ver">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="488" parent="66" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="489" parent="67" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="490" parent="67" name="category">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="491" parent="67" name="name">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="492" parent="67" name="submittime">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="493" parent="67" name="ms">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="494" parent="67" name="img">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="495" parent="67" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="496" parent="67" name="FK_Reference_1">
+        <columns>id</columns>
+        <ref-key>~.tb_category.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="497" parent="68" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="498" parent="68" name="categoryname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="499" parent="68" name="submittime">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="500" parent="68" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="501" parent="69" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="502" parent="69" name="name">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="503" parent="69" name="password">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="504" parent="69" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="505" parent="70" name="tid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="506" parent="70" name="tname">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <key id="507" parent="70" name="PRIMARY">
+        <columns>tid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="508" parent="71" name="tid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="509" parent="71" name="sid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="510" parent="71" name="t_s_fk1">
+        <columns>sid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="511" parent="71" name="PRIMARY">
+        <columns>tid
+sid</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="512" parent="71" name="t_s_fk">
+        <columns>tid</columns>
+        <ref-key>~.tea.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="513" parent="71" name="t_s_fk1">
+        <columns>sid</columns>
+        <ref-key>~.stu.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="514" parent="72" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="515" parent="72" name="deptno">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="516" parent="72" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="517" parent="73" name="ITEMS_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="518" parent="73" name="POSITION">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="519" parent="73" name="TIP">
+        <data-type>varchar(200)</data-type>
+      </column>
+      <key id="520" parent="73" name="PRIMARY">
+        <columns>ITEMS_ID
+POSITION</columns>
+        <primary>1</primary>
+      </key>
+      <column id="521" parent="74" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="522" parent="74" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="523" parent="74" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="524" parent="74" name="age">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="525" parent="74" name="birth">
+        <data-type>date</data-type>
+      </column>
+      <index id="526" parent="74" name="u_username">
+        <columns>username</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="527" parent="74" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="528" parent="75" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="529" parent="75" name="username">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="530" parent="75" name="password">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="531" parent="75" name="type">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="532" parent="75" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="533" parent="76" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="534" parent="76" name="card_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="535" parent="76" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="536" parent="76" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="537" parent="76" name="sex">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="538" parent="76" name="age">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="539" parent="76" name="telphone">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="540" parent="76" name="qq">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="541" parent="76" name="person_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="542" parent="76" name="score">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="543" parent="76" name="email">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="544" parent="76" name="recommand_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="545" parent="76" name="amount_score">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="546" parent="76" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="547" parent="77" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="548" parent="77" name="card_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="549" parent="77" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="550" parent="77" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="551" parent="77" name="sex">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="552" parent="77" name="age">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="553" parent="77" name="telphone">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="554" parent="77" name="qq">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="555" parent="77" name="person_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="556" parent="77" name="score">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="557" parent="77" name="email">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="558" parent="77" name="recommand_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="559" parent="77" name="amount_score">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="560" parent="77" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="561" parent="78" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="562" parent="78" name="card_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="563" parent="78" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="564" parent="78" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="565" parent="78" name="sex">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="566" parent="78" name="age">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="567" parent="78" name="telphone">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="568" parent="78" name="qq">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="569" parent="78" name="person_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="570" parent="78" name="score">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="571" parent="78" name="email">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="572" parent="78" name="recommand_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="573" parent="78" name="amount_score">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="574" parent="78" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="575" parent="79" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="576" parent="79" name="sex">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="577" parent="79" name="age">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="578" parent="79" name="PRIMARY">
+        <columns>username
+sex</columns>
+        <primary>1</primary>
+      </key>
+      <column id="579" parent="80" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="580" parent="80" name="username">
+        <comment>用户名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="581" parent="80" name="password">
+        <comment>密码</comment>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="582" parent="80" name="usertype">
+        <comment>用户类型</comment>
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="583" parent="80" name="enabled">
+        <comment>是否可用</comment>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="584" parent="80" name="realname">
+        <comment>真实姓名</comment>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="585" parent="80" name="qq">
+        <comment>QQ</comment>
+        <data-type>varchar(14)</data-type>
+      </column>
+      <column id="586" parent="80" name="email">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="587" parent="80" name="tel">
+        <comment>联系电话</comment>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="588" parent="80" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="589" parent="81" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="590" parent="81" name="USERNAME">
+        <mandatory>1</mandatory>
+        <data-type>char(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="591" parent="81" name="USERPWD">
+        <data-type>char(20)</data-type>
+      </column>
+      <column id="592" parent="81" name="REGDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="593" parent="81" name="LOGINTIMES">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="594" parent="81" name="PRIMARY">
+        <columns>USERNAME
+ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="595" parent="82" name="ITEMS_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="596" parent="82" name="VIDEO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="597" parent="82" name="PRIMARY">
+        <columns>ITEMS_ID
+VIDEO</columns>
+        <primary>1</primary>
+      </key>
+      <column id="598" parent="83" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="599" parent="83" name="wname">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="600" parent="83" name="hid">
+        <data-type>int(10)</data-type>
+      </column>
+      <index id="601" parent="83" name="hus_w_id">
+        <columns>hid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="602" parent="83" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="603" parent="83" name="hus_w_id">
+        <columns>hid</columns>
+        <ref-key>~.hus.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="604" parent="84" name="XIDSTR">
+        <mandatory>1</mandatory>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="605" parent="84" name="POOLNAMESTR">
+        <data-type>varchar(64)</data-type>
+      </column>
+      <column id="606" parent="84" name="RECORDSTR">
+        <data-type>varchar(1000)</data-type>
+      </column>
+      <key id="607" parent="84" name="PRIMARY">
+        <columns>XIDSTR</columns>
+        <primary>1</primary>
+      </key>
+      <column id="608" parent="85" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="609" parent="85" name="xsname">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="610" parent="85" name="bjid">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="611" parent="85" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="612" parent="86" name="yid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="613" parent="86" name="bid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="614" parent="86" name="yname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <index id="615" parent="86" name="y_b_id">
+        <columns>bid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="616" parent="86" name="PRIMARY">
+        <columns>yid</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="617" parent="86" name="y_b_id">
+        <columns>bid</columns>
+        <ref-key>~.boss.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="618" parent="87" name="userid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="619" parent="87" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="620" parent="87" name="password">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="621" parent="87" name="PRIMARY">
+        <columns>userid
+username</columns>
+        <primary>1</primary>
+      </key>
+      <column id="622" parent="88" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="623" parent="88" name="username">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="624" parent="88" name="password">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="625" parent="88" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="626" parent="89" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="627" parent="89" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="628" parent="89" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="629" parent="89" name="age">
+        <data-type>int(11)</data-type>
+      </column>
+      <argument id="630" parent="90">
+        <direction>RETURN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="631" parent="91">
+        <direction>RETURN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="632" parent="92">
+        <direction>RETURN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="633" parent="93">
+        <direction>RETURN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="634" parent="94">
+        <direction>RETURN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="635" parent="95">
+        <direction>RETURN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="636" parent="96">
+        <direction>RETURN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="637" parent="97">
+        <direction>RETURN</direction>
+        <data-type>varchar(10)</data-type>
+      </argument>
+      <argument id="638" parent="98" name="in_username">
+        <direction>IN</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="639" parent="98" name="in_age">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="640" parent="99" name="in_deptno">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="641" parent="102">
+        <direction>RETURN</direction>
+        <data-type>varchar(255)</data-type>
+      </argument>
+      <argument id="642" parent="102" name="s">
+        <direction>IN</direction>
+        <data-type>varchar(30)</data-type>
+      </argument>
+      <argument id="643" parent="103">
+        <direction>RETURN</direction>
+        <data-type>varchar(255)</data-type>
+      </argument>
+      <argument id="644" parent="103" name="s">
+        <direction>IN</direction>
+        <data-type>varchar(30)</data-type>
+      </argument>
+      <argument id="645" parent="104">
+        <direction>RETURN</direction>
+        <data-type>varchar(255)</data-type>
+      </argument>
+      <argument id="646" parent="104" name="s">
+        <direction>IN</direction>
+        <data-type>varchar(30)</data-type>
+      </argument>
+      <argument id="647" parent="105">
+        <direction>RETURN</direction>
+        <data-type>varchar(255)</data-type>
+      </argument>
+      <argument id="648" parent="105" name="s">
+        <direction>IN</direction>
+        <data-type>varchar(30)</data-type>
+      </argument>
+      <argument id="649" parent="106" name="p_inout">
+        <direction>INOUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="650" parent="107" name="p_inout">
+        <direction>INOUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="651" parent="108" name="o_1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="652" parent="109" name="o_1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="653" parent="110" name="o_1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="654" parent="110" name="i_username">
+        <direction>IN</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="655" parent="111" name="v_1">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="656" parent="112" name="in_username">
+        <direction>IN</direction>
+        <data-type>char(10)</data-type>
+      </argument>
+      <argument id="657" parent="112" name="out_num">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="658" parent="113" name="in_username">
+        <direction>IN</direction>
+        <data-type>char(10)</data-type>
+      </argument>
+      <argument id="659" parent="113" name="out_num1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="660" parent="113" name="out_num2">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="661" parent="116" name="s">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="662" parent="117" name="s">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="663" parent="118" name="in_username">
+        <direction>IN</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="664" parent="118" name="out_flag">
+        <direction>OUT</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="665" parent="119" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="666" parent="120" name="s">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="667" parent="120" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="668" parent="121" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="669" parent="122" name="s">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="670" parent="123" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="671" parent="124" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="672" parent="125" name="s">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="673" parent="125" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="674" parent="126" name="s">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="675" parent="129" name="parameter">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="676" parent="130" name="s">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="677" parent="134" name="s">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="678" parent="135" name="s">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="679" parent="136" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="680" parent="137" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="681" parent="138" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="682" parent="139" name="p">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="683" parent="139" name="p_id">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="684" parent="140" name="in_name">
+        <direction>IN</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="685" parent="140" name="out_flag">
+        <direction>OUT</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="686" parent="141" name="i_1">
+        <direction>IN</direction>
+        <data-type>varchar(10)</data-type>
+      </argument>
+      <argument id="687" parent="141" name="o_1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="688" parent="143" name="in_age">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="689" parent="144" name="in_age">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="690" parent="144" name="out_count">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="691" parent="145" name="in_username">
+        <direction>IN</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="692" parent="145" name="in_age">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="693" parent="145" name="o_count">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="694" parent="146" name="i_1">
+        <direction>IN</direction>
+        <data-type>varchar(10)</data-type>
+      </argument>
+      <argument id="695" parent="146" name="o_1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="696" parent="147" name="in_i">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="697" parent="148" name="in_i">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="698" parent="149" name="in_i">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="699" parent="150" name="in_username">
+        <direction>IN</direction>
+        <data-type>varchar(10)</data-type>
+      </argument>
+      <argument id="700" parent="150" name="out_count">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="701" parent="152" name="in_username">
+        <direction>IN</direction>
+        <data-type>varchar(100)</data-type>
+      </argument>
+      <argument id="702" parent="152" name="out_flag">
+        <direction>OUT</direction>
+        <data-type>varchar(10)</data-type>
+      </argument>
+      <argument id="703" parent="153" name="in_i">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="704" parent="154" name="in_i">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="705" parent="155" name="in_i">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="706" parent="156" name="in_i">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="707" parent="157" name="in_name">
+        <direction>IN</direction>
+        <data-type>varchar(20)</data-type>
+      </argument>
+      <argument id="708" parent="159" name="o_1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="709" parent="160" name="o_1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="710" parent="161" name="o_1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="711" parent="162" name="o_1">
+        <direction>OUT</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="712" parent="163" name="in_username">
+        <direction>IN</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="713" parent="163" name="in_age">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="714" parent="163" name="out_result">
+        <direction>OUT</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="715" parent="166" name="in_id">
+        <direction>IN</direction>
+        <data-type>int(4)</data-type>
+      </argument>
+      <argument id="716" parent="167" name="in_flag">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="717" parent="167" name="out_flag">
+        <direction>OUT</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="718" parent="168" name="in_id">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="719" parent="169" name="in_id">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="720" parent="169" name="out_result">
+        <direction>OUT</direction>
+        <data-type>varchar(50)</data-type>
+      </argument>
+      <argument id="721" parent="170" name="in_name">
+        <direction>IN</direction>
+        <data-type>varchar(20)</data-type>
+      </argument>
+      <argument id="722" parent="170" name="out_result">
+        <direction>OUT</direction>
+        <data-type>varchar(20)</data-type>
+      </argument>
+      <argument id="723" parent="171" name="in_name">
+        <direction>IN</direction>
+        <data-type>varchar(10)</data-type>
+      </argument>
+      <argument id="724" parent="171" name="out_result">
+        <direction>OUT</direction>
+        <data-type>varchar(10)</data-type>
+      </argument>
+      <argument id="725" parent="172" name="in_id">
+        <direction>IN</direction>
+        <data-type>int(4)</data-type>
+      </argument>
+      <argument id="726" parent="174">
+        <direction>RETURN</direction>
+        <data-type>varchar(10)</data-type>
+      </argument>
+      <argument id="727" parent="174" name="in_no">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="728" parent="175" name="fi_t2">
+        <direction>IN</direction>
+        <data-type>varchar(30)</data-type>
+      </argument>
+    </database-model>
   </data-source>
 </component>
