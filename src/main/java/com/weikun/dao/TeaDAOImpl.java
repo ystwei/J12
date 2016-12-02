@@ -26,8 +26,11 @@ public class TeaDAOImpl {
     @Test
     public void del(){
         try {
+
             session=sf.openSession();
+
             trans=session.beginTransaction();
+
             Tea1 h=(Tea1)session.load(Tea1.class,1);
 
             session.delete(h);
