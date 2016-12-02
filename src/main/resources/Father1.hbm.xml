@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.weikun.po.Father1" table="father1" schema="test">
+        <id name="fid">
+            <column name="fid" sql-type="int(11)"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="fname">
+            <column name="fname" sql-type="varchar(10)" length="10" not-null="true"/>
+        </property>
+        <set name="sons" inverse="true" cascade="all">
+            <key>
+                <column name="fid" not-null="true"/>
+            </key>
+            <one-to-many not-found="ignore" class="com.weikun.po.Son1"/>
+        </set>
+    </class>
+</hibernate-mapping>

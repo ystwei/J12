@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.weikun.po.Hus1" table="hus1" schema="test">
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="hname">
+            <column name="hname" sql-type="varchar(10)" length="10" not-null="true"/>
+        </property>
+        <one-to-one name="wife" cascade="all" class="com.weikun.po.Wife1"/>
+    </class>
+</hibernate-mapping>

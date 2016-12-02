@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.weikun.po.Stu1" table="stu1" schema="test">
+        <id name="sid">
+            <column name="sid" sql-type="int(11)"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="sname">
+            <column name="sname" sql-type="varchar(10)" length="10" not-null="true"/>
+        </property>
+        <set name="tea" inverse="true" table="teastu1" schema="test">
+            <key>
+                <column name="sid"/>
+            </key>
+            <many-to-many not-found="ignore" class="com.weikun.po.Tea1">
+                <column name="tid"/>
+            </many-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

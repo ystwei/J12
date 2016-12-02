@@ -13,6 +13,14 @@
       true
     </property>
     <mapping resource="User.hbm.xml"/>
+    <mapping resource="User5.hbm.xml"/>
+    <mapping resource="Hus1.hbm.xml"/>
+    <mapping resource="Wife1.hbm.xml"/>
+    <mapping resource="Father1.hbm.xml"/>
+    <mapping resource="Son1.hbm.xml"/>
+    <mapping resource="Stu1.hbm.xml"/>
+    <mapping resource="Tea1.hbm.xml"/>
+    <mapping resource="Teastu1.hbm.xml"/>
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->
   </session-factory>
