@@ -12,7 +12,7 @@
         <property name="fname">
             <column name="fname" sql-type="varchar(10)" length="10" not-null="true"/>
         </property>
-        <set name="sons" inverse="true" cascade="all">
+        <set name="sons" inverse="true" cascade="all" lazy="false">
             <key>
                 <column name="fid" not-null="true"/>
             </key>

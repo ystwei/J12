@@ -48,20 +48,22 @@ public class UserDAOImpl {
             session.close();
         }
     }
+
     @Test
     public void selectAll(){
 
         try {
             session=sf.openSession();
 
-
             Query q=session.createQuery("from User as u ");//HQL：hibernate Query language
-
+            q.setCacheable(true);
             List<User> list=q.list();
 
-            for(User u :list){
-               System.out.println(u.getUsername()+"---"+u.getPassword());
-            }
+            List<User> list1=q.list();
+//
+//            for(User u :list){
+//               System.out.println(u.getUsername()+"---"+u.getPassword());
+//            }
 
 
 
